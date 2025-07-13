@@ -3,12 +3,12 @@
   "version": "1.2.0",
   "packageManager": "pnpm@9.14.2",
   "description": "Start changeset based release process for a monorepo project.",
-  "author": "manuel.santos@mercedes-benz.io",
+  "author": "ney.br.santos@gmail.com",
   "license": "Apache License 2.0",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://git.i.mercedes-benz.com/dh-io-actions/monorepo-release-start.git"
+    "url": "https://github.com/manusant/monorepo-release-start.git"
   },
   "keywords": [
     "github-action",
