@@ -72,7 +72,7 @@ concurrency: ${{ github.workflow }}-${{ github.ref }}
 jobs:
   release:
     name: Release
-    runs-on: [ nb-small-x86-spot ]
+    runs-on: [ ubuntu-latest ]
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
