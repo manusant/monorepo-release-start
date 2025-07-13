@@ -1,0 +1,23 @@
+name: 'Monorepo Release Start'
+description: 'Starts a changeset release on a monorepo project'
+outputs:
+  version:
+    description: 'Next release version'
+  oldPackages:
+    description: 'Old package versions'
+  releasedPackages:
+    description: 'Versions of new packages being released'
+  allPackages:
+    description: 'Versions of all packages after release'
+  releaseOutput:
+    description: 'Output of the changesets release flow'
+  released:
+    description: 'Release feedback'
+  deployablePackages:
+    description: 'Deployable packages (with "deployment" field in package.json) found in the monorepo structure.'
+branding:
+  icon: sunrise
+  color: gray-dark
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
